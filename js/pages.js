@@ -95,7 +95,7 @@ const updatePage = function() {
 //Step 6: Attach an event listener to the next button & call the next function
 nextTag.addEventListener("click", function() {
   next();
-  console.log(pageNumber);
+  //console.log(pageNumber);
   updatePage();
   //We only have four pages so we don't want to be able to go past that limit
 
@@ -105,13 +105,13 @@ nextTag.addEventListener("click", function() {
 //Step 7: Attach an event listener to the previous button & call the previous function
 previousTag.addEventListener("click", function() {
   previous();
-  console.log(pageNumber);
+  //console.log(pageNumber);
   updatePage();
 });
 
 //Step 9: Attach an event listener to the random button & call the random function
 randomTag.addEventListener("click", function() {
   random();
-  console.log(pageNumber);
+  //console.log(pageNumber);
   updatePage();
 });
